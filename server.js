@@ -26,14 +26,14 @@ app.use("/contact", require("./routes/contactUs"));
 app.use("/lecturette", require("./routes/lecturette"));
 app.use("/payment", require("./routes/payment"));
 
-if (process.env.NODE_ENV === "production") {
-  //?SET STATIC FOLDER
-  app.use(express.static("front-end/build"));
+// if (process.env.NODE_ENV === "production") {
+//   //?SET STATIC FOLDER
+//   app.use(express.static("front-end/build"));
 
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "front-end", "build", "index.html"));
-  });
-}
+//   app.get("*", (req, res) => {
+//     res.sendFile(path.resolve(__dirname, "front-end", "build", "index.html"));
+//   });
+// }
 
 const PORT = process.env.PORT || 5000;
 
