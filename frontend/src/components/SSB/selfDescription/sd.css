@@ -1,0 +1,35 @@
+.sd-content {
+  text-align: left;
+  margin-left: 50px;
+  color: #05386b;
+  font-weight: 500;
+}
+
+.q {
+  font-size: 36px;
+}
+
+.q-content {
+  font-size: 28px;
+  padding-left: 30px;
+}
+
+.q {
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 720px) {
+  .sd-content {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .q {
+    font-size: 25px;
+  }
+
+  .q-content {
+    font-size: 25px;
+    padding-left: 25px;
+  }
+}

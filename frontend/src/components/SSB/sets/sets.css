@@ -1,0 +1,6 @@
+.sets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  justify-items: center;
+  margin-top: 0vh;
+}

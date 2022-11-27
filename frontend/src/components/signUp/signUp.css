@@ -1,0 +1,75 @@
+.title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #05386b;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 215px;
+}
+
+.form input {
+  width: 450px;
+  margin: 15px;
+  padding: 14px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+}
+
+.pwd {
+  position: relative;
+}
+
+.toggle-icon {
+  z-index: 9999;
+  position: absolute;
+  top: 35%;
+  right: 28px;
+  color: #05386b;
+
+  cursor: pointer;
+}
+
+.form .btn {
+  background-color: #05386b;
+  margin-top: 10px;
+  color: #edf5e1;
+  padding: 16px 180px;
+}
+
+.form .btn:hover {
+  background-color: #edf5e1;
+  color: #05386b;
+}
+
+.have-account {
+  font-size: 26px;
+  color: #05386b;
+}
+
+@media only screen and (max-width: 720px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .form input {
+    width: 320px;
+    font-size: 18px;
+  }
+
+  .form .btn {
+    padding: 16px 120px;
+  }
+
+  .have-account {
+    font-size: 21px;
+  }
+}

@@ -1,0 +1,8 @@
+.content p {
+  list-style: none;
+  text-align: left;
+  margin: 1rem 0.5rem;
+  padding-left: 0.5rem;
+  color: #05386b;
+  font-size: 1.1rem;
+}

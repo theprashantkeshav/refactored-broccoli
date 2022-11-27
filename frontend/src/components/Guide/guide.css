@@ -1,0 +1,47 @@
+.guide-body {
+  padding-top: 15vh;
+  padding-bottom: 11vh;
+  background-color: #edf5e1;
+}
+
+.guide-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.guide-content h1 {
+  font-weight: 400;
+  color: #05386b;
+  text-align: left;
+  padding-top: 1.7rem;
+}
+
+.guide-content li {
+  font-size: 21px;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1366px) {
+  .guide-body {
+    padding-top: 15vh;
+    padding-bottom: 40vh;
+  }
+
+  .guide-content li {
+    font-size: 27px;
+    width: 65vw;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .guide-content li {
+    width: 90vw;
+  }
+}

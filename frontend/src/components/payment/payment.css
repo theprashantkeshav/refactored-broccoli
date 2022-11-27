@@ -1,0 +1,36 @@
+.payment-button {
+  background-color: #FFA500;
+  padding: 13px 28px;
+
+  border-radius: 4px;
+  width: 39vw;
+  color: #fff;
+  margin-left: -27px;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(51, 51, 51, 0.2);
+  transition: all 0.3s ease 0s;
+}
+
+
+.payment-button:hover {
+  background-color: #05386b;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+@media only screen and (min-width: 1370px) {
+  .payment-button {
+    width: 26vw;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .payment-button {
+    width: 91vw;
+  }
+}

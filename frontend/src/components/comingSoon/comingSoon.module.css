@@ -1,0 +1,25 @@
+body {
+  background-color: #edf5e1 !important;
+}
+
+.comingSoon {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  place-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 960px) {
+  .comingSoon {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+
+@media only screen And (min-width: 1366px) {
+  .comingSoon {
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  }
+}

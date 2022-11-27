@@ -1,0 +1,14 @@
+.pot-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 0vh;
+}
+
+@media only screen and (max-width: 720px) {
+  .pot-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+    justify-items: center;
+    margin-top: 0vh;
+  }
+}

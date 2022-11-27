@@ -1,0 +1,535 @@
+.tat {
+  display: grid;
+  grid-template-rows: 60px auto;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.tatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5cdb95;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.tatHeader p {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 13px 15px;
+  margin: 10px;
+}
+
+.tatBody {
+  padding-top: 7px;
+  background-color: #edf5e1;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 38px;
+  color: #05386b;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 38px;
+  color: #05386b;
+  cursor: pointer;
+}
+
+.tat_leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 38px;
+  color: #05386b;
+  cursor: pointer;
+}
+
+.tat_rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 38px;
+  color: #05386b;
+  cursor: pointer;
+}
+
+.WATrightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 38px;
+  color: #05386b;
+  cursor: pointer;
+}
+
+.WATleftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 38px;
+  color: #05386b;
+  cursor: pointer;
+}
+
+.SRTrightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 38px;
+  color: #05386b;
+  cursor: pointer;
+}
+
+.SRTleftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 38px;
+  color: #05386b;
+  cursor: pointer;
+}
+
+.tatBody img {
+  width: auto;
+  height: 70vh;
+  padding-bottom: 10px;
+}
+
+.words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 22vh;
+  padding-bottom: 10vh;
+}
+
+.words p {
+  font-size: 48px;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.situations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 12vh;
+  padding-bottom: 10vh;
+}
+
+.situations p {
+  font-size: 30px;
+  width: 70vw;
+  font-weight: 400;
+  color: #05386b;
+  text-align: justify;
+}
+
+.gpeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 10vh;
+  padding-bottom: 8vh;
+}
+
+.gpeContent p {
+  font-size: 21px;
+  width: 85vw;
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.gpeImg img {
+  width: 85vw;
+  height: 90vh;
+}
+
+.responseBtn {
+  background-color: #05386b;
+  padding: 13px 28px;
+  border-radius: 4px;
+  margin: 10px;
+
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.responseBtn:hover {
+  background-color: #5cdb95;
+  color: #fff;
+}
+
+.WATresponseBtn {
+  background-color: #5cdb95;
+  padding: 13px 25px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.WATresponseBtn:hover {
+  background-color: #05386b;
+  color: #fff;
+}
+
+.SRTresponseBtn {
+  background-color: #5cdb95;
+  padding: 13px 25px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.SRTresponseBtn:hover {
+  background-color: #05386b;
+  color: #fff;
+}
+
+.TATResponse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 10vh;
+  padding-bottom: 8vh;
+}
+
+.TATResponse p {
+  font-size: 21px;
+  width: 70vw;
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.TATTestResponse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.TATTestResponse p,
+.li {
+  font-size: 21px;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.TATTestResponse h1 {
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.TATTestResponse li {
+  margin-bottom: 10px;
+}
+
+.TATTestResponse h4 {
+  font-weight: 400;
+  color: #05386b;
+}
+
+.SRTTestResponse,
+.SRTTestTxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.SRTTestTxt p {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.SRTTestResponse p {
+  font-size: 21px;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.watResponse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 10vh;
+  padding-bottom: 8vh;
+}
+
+.watResponse p {
+  font-size: 26px;
+  width: 83vw;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.SRTResponse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.SRTResponse p {
+  font-size: 30px;
+  width: 70vw;
+  font-weight: 400;
+  color: #05386b;
+  text-align: justify;
+}
+
+.PPDTResponse {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.PPDTResponse h1 {
+  font-weight: 400;
+  color: #05386b;
+}
+
+.PPDTResponse p {
+  font-size: 21px;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.GPEResponse {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.GPEResponse h3 {
+  font-weight: 400;
+  color: #05386b;
+  text-align: left;
+}
+
+.GPEResponse p {
+  font-size: 21px;
+  width: 60vw;
+  text-align: justify;
+  font-weight: 400;
+  color: #05386b;
+}
+
+.GPEResponse .solution p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 960px) {
+  .tatHeader p {
+    font-size: 25px;
+    padding: 15px 10px;
+  }
+
+  .tatBody {
+    padding-top: 0px;
+  }
+
+  .tatBody img {
+    width: 90vw;
+    height: 90vh;
+    
+  }
+
+  .icon {
+    padding-top: 0rem;
+  }
+
+  .leftArrow {
+    position: absolute;
+    top: 60%;
+    left: 60px;
+    font-size: 40px;
+    padding-top: 7vh;
+  }
+
+  .rightArrow {
+    position: absolute;
+    top: 60%;
+    right: 60px;
+    font-size: 40px;
+    padding-top: 7vh;
+  }
+
+  .WATleftArrow {
+    position: absolute;
+    top: 35%;
+    left: 20px;
+    font-size: 27px;
+    padding-top: 7vh;
+  }
+
+  .WATrightArrow {
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    font-size: 27px;
+    padding-top: 7vh;
+  }
+
+  .SRTrightArrow {
+    position: absolute;
+    top: 40%;
+    right: 8px;
+    font-size: 27px;
+    padding-top: 7vh;
+  }
+
+  .SRTleftArrow {
+    position: absolute;
+    top: 40%;
+    left: 8px;
+    font-size: 27px;
+    padding-top: 7vh;
+  }
+
+  .tat_leftArrow {
+    position: absolute;
+    top: 85%;
+    left: 10vw;
+    font-size: 27px;
+  }
+
+  .tat_rightArrow {
+    position: absolute;
+    top: 85%;
+    right: 10vw;
+    font-size: 27px;
+  }
+
+  .tatBody img {
+    width: 90vw;
+    height: 70vh;
+  }
+
+ 
+
+  .words {
+    padding-bottom: 10vh;
+  }
+
+  .situations {
+    padding-top: 11vh;
+  }
+  .situations p {
+    font-size: 22px;
+    width: 95vw;
+    text-align: justify;
+  }
+
+  .gpeContent {
+    padding-top: 5vh;
+  }
+
+  .gpeContent p {
+    font-size: 22px;
+    width: 90vw;
+  }
+
+  .gpeImg img {
+    width: 97vw;
+    height: 50vh;
+  }
+
+  .WATresponseBtn {
+    padding: 14px 19px;
+    font-size: 16px;
+  }
+
+  .SRTresponseBtn {
+    padding: 14px 19px;
+    font-size: 16px;
+  }
+
+  .watResponse p {
+    text-align: justify;
+  }
+
+  .SRTResponse p {
+    font-size: 22px;
+    width: 95vw;
+  }
+  .TATResponse p {
+    font-size: 21px;
+    width: 95vw;
+  }
+
+  .TATTestResponse p {
+    font-size: 21px;
+    width: 95vw;
+  }
+
+  .TATTestResponse li {
+    font-size: 21px;
+    width: 95vw;
+  }
+
+  .SRTTestTxt p {
+    width: 95vw;
+  }
+
+  .SRTTestResponse p {
+    width: 95vw;
+  }
+
+  .PPDTResponse p {
+    width: 95vw;
+  }
+
+  .GPEResponse p,
+  h3 {
+    width: 95vw;
+  }
+}

@@ -1,0 +1,118 @@
+body {
+  background-color: #5cdb95 !important;
+}
+
+.header {
+  height: 100vh;
+  width: auto;
+}
+
+.header::before {
+  content: " ";
+  background: #05386b;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  z-index: 0;
+}
+
+.slogan h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  padding-left: 3rem;
+  font-size: 100px;
+  font-weight: 700;
+  word-spacing: 2.5rem;
+  color: #edf5e1;
+  text-align: left;
+  z-index: 1;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 90px;
+  z-index: 1;
+}
+
+.btn_p {
+  text-decoration: none;
+  background-color: #05386b;
+  color: #edf5e1;
+  padding: 1rem 2rem;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+}
+
+.btn_t {
+  text-decoration: none;
+  background-color: #05386b;
+  color: #edf5e1;
+  padding: 1rem 3rem;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+}
+
+.btn_p:hover,
+.btn_t:hover {
+  background-color: #edf5e1;
+  color: #05386b;
+}
+
+@media only screen and (max-width: 720px) {
+  .header {
+    height: 100%;
+    width: auto;
+  }
+
+  .slogan h1 {
+    margin-top: 7rem;
+    font-size: 53px;
+    font-weight: 700;
+    word-spacing: 1.5rem;
+    text-align: left;
+    padding-left: 2rem;
+  }
+
+  .btns {
+    margin-top: 50px;
+    z-index: 1;
+  }
+
+  .btn_p {
+    text-decoration: none;
+    background-color: #05386b;
+    color: #edf5e1;
+    padding: 1rem 2rem;
+    font-size: 21px;
+    margin: 1rem;
+    border-radius: 4px;
+  }
+
+  .btn_t {
+    padding: 1rem 2.9rem;
+    font-size: 20px;
+    margin: 1rem;
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .slogan h1 {
+    font-size: 140px;
+    word-spacing: 3rem;
+    padding-left: 8rem;
+  }
+}

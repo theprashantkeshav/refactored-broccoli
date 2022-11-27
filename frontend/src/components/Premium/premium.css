@@ -1,0 +1,256 @@
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"); */
+
+.premium-body {
+  width: 100vw;
+  height: auto;
+  background-color: #edf5e1;
+}
+
+.p-d {
+  /* background: #edf5e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0rem;
+  padding-top: 10vh;
+  padding-bottom: 5vw;
+  place-items: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  line-height: 1.8;
+  font-family: "Open Sans", sans-serif;
+}
+
+.p-d-two {
+  /* background: #edf5e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 0rem;
+  padding-top: 10vh;
+  padding-bottom: 5vw;
+  place-items: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  line-height: 1.8;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card-premium {
+  margin: 0 2rem 1rem 0;
+  padding: 0 0 0.5rem 0;
+  width: auto;
+  height: auto;
+  background: #fff;
+  color: #444;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(51, 51, 51, 0.2);
+  overflow: hidden;
+  transition: all 0.1ms ease-in-out;
+}
+
+.card-premium-two {
+  margin: 0 2rem 1rem 0;
+  padding: 0 0 0.5rem 0;
+  width: auto;
+  height: auto;
+  background: #fff;
+  color: #444;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(51, 51, 51, 0.2);
+  overflow: hidden;
+  transition: all 0.1ms ease-in-out;
+}
+
+.card-premium:hover {
+  transform: scale(1.02);
+}
+
+.card-premium-two:hover {
+  transform: scale(1.02);
+}
+
+.card-header {
+  height: 5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+  color: #fff;
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+}
+
+.card-header h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.header-premium,
+.btn-premium {
+  background: #FFA500;
+}
+
+.card-body h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card-body .price {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #878787;
+}
+
+.card-body .off {
+  
+  color: #388e3c;
+}
+
+.card-body .sale {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: red;
+}
+
+.card-element-container {
+  padding-left: 10px;
+}
+
+.card-body li {
+  width: 450px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 10px;
+  line-height: 1.1;
+  text-align: justify;
+
+  color: #05386b;
+}
+
+.demo-faculty {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.btn-f {
+  text-decoration: none;
+  background-color: #FFA500;
+  color: #edf5e1;
+  padding: 0.8rem 2rem;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.1ms ease-in-out;
+}
+
+.btn-d {
+  text-decoration: none;
+  background-color: #FFA500;
+  color: #edf5e1;
+  padding: 0.8rem 2.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.1ms ease-in-out;
+}
+
+.btn-d:hover {
+  transform: scale(0.95);
+  background-color: #05386b;
+  color: #fff;
+}
+
+.btn-f:hover {
+  transform: scale(0.95);
+  background-color: #05386b;
+  color: #fff;
+}
+
+.btn:active {
+  transform: scale(1);
+}
+
+@media only screen and (min-width: 1370px) {
+  .premium-body {
+    width: 100vw;
+    height: 100vh;
+  }
+  /* 
+  .card-premium {
+    margin: 0 2rem 1rem 0;
+    padding: 0 0 0.5rem 0;
+    width: 30vw;
+    height: 50vh;
+  } */
+
+  p-d {
+    padding-top: 20vh;
+    padding-bottom: 5vw;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .card-premium {
+    width: auto;
+    height: height;
+  }
+
+  .card-premium-two {
+    width: auto;
+    height: height;
+  }
+
+  .p-d {
+    padding-top: 12vh;
+    padding-bottom: 60vw;
+    padding-left: 7vw;
+  }
+
+  .p-d-two {
+    padding-top: 4vh;
+    padding-bottom: 5vw;
+    padding-left: 7vw;
+  }
+
+  .card-header h1 {
+    font-size: 2.7rem;
+    font-weight: 900;
+  }
+
+  .card-body h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+
+  .card-element-container {
+    padding-left: 5px;
+  }
+
+  .card-body li {
+    width: 78vw;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    line-height: 1.1;
+    text-align: justify;
+
+    color: #05386b;
+  }
+}

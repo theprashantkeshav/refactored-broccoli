@@ -1,0 +1,47 @@
+.sale {
+  background-color: #ffc107;
+}
+
+.sale-tag {
+  padding-top: 15vh;
+  padding-left: 15vw;
+  padding-bottom: 15vh;
+}
+
+.sale h1 {
+  color: #fff;
+  font-weight: 900;
+  text-align: left;
+}
+
+.sale h2 {
+  color: #fff;
+  font-weight: 900;
+  text-align: left;
+}
+.sale h3 {
+  color: #fff;
+  font-weight: 900;
+  text-align: left;
+}
+
+.sale .price {
+  font-size: 1.1rem;
+  text-decoration: line-through;
+  
+}
+
+@media only screen and (max-width: 720px) {
+  .sale-tag {
+    padding-top: 10vh;
+    padding-left: 15px;
+    padding-bottom: 10vh;
+  }
+
+  .sale h1 {
+    color: #fff;
+    font-weight: 900;
+    text-align: left;
+    font-size: 50px;
+  }
+}
